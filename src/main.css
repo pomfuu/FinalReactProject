@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+.font2{
+    font-family: 'Questrial', sans-serif;
+}
+
+.default-text-color {
+    color: #1e1e1e !important;
+}
+  
+.hover-magnify:hover .default-text-color {
+    color:#44617b !important;
+    transform: scale(1.1) !important;
+    transition: 0.5s ease-in-out !important;
+    -webkit-transition: 0.5s ease-in-out !important;
+    -moz-transition: 0.5s ease-in-out !important;
+    -ms-transition: 0.5s ease-in-out !important;
+    -o-transition: 0.5s ease-in-out !important;
+}
+
+.hover-act:hover {
+    color:#44617b !important;
+    transform: scale(1.1) !important;
+    transition: 0.5s ease-in-out !important;
+    -webkit-transition: 0.5s ease-in-out !important;
+    -moz-transition: 0.5s ease-in-out !important;
+    -ms-transition: 0.5s ease-in-out !important;
+    -o-transition: 0.5s ease-in-out !important;
+}
+
+.hover-scale {
+    transition: transform 0.5s ease-in-out;
+    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+    -moz-transition: -moz-transform 0.5s ease-in-out;
+    -ms-transition: -ms-transform 0.5s ease-in-out;
+    -o-transition: -o-transform 0.5s ease-in-out;
+}
+
+.hover-scale:hover {
+    transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+}
+
+.btn-custom {
+    border: 1px solid #1e1e1e;
+    color: black;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: #1e1e1e;
+    color: #FFFFFC;
+}
+
+@media (max-width: 990px) {
+    .nav-small{
+        padding-bottom: 6vw;
+    }
+    .mtop-small{
+        margin-top: 20vw;
+    }
+    .mb-small{
+        margin-bottom: 6vw !important;
+    }
+    .disnone{
+        display: none;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .nav-small{
+        padding-bottom: 12vw;
+    }
+  }
+
+
+
+
+  
+  
