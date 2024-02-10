@@ -69,6 +69,9 @@
     .disnone{
         display: none;
     }
+    .vdsmall{
+        height: 49vw !important;
+    }
   }
 
   @media (max-width: 480px) {

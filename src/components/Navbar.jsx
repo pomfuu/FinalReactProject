@@ -43,7 +43,7 @@ const Navbars = () => {
                             {isLoggedIn ? (
                                 <Nav.Link onClick={handleLogout} className={`${isScrolled && showBackground ? 'text-black' : 'text-white'}`}>&#10006;</Nav.Link>
                             ) : (
-                                <Nav.Link href={"/login"} className={` ${isScrolled && showBackground ? 'text-black' : 'text-white'}`}>Login</Nav.Link>
+                                <Nav.Link navigate={"/login"} className={` ${isScrolled && showBackground ? 'text-black' : 'text-white'}`}>Login</Nav.Link>
                             )}
                         </Nav>
                     </Navbar.Collapse>

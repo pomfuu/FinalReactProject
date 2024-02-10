@@ -165,7 +165,7 @@ function Home() {
                         </div>
                         <div className="col-lg-7 col-12 position-relative">
                             <div className="position-relative">
-                                <video className="video-background object-fit-cover" style={{ objectFit: "cover", height: "49vw", width: "100vw", borderBottomLeftRadius: "1vw" }} autoPlay loop muted>
+                                <video className="video-background object-fit-cover vdsmall" style={{ objectFit: "cover", height: "102vh", width: "100vw", borderBottomLeftRadius: "1vw" }} autoPlay loop muted>
                                     <source src={videoSrc} type="video/mp4" />
                                 </video>
                                 <div className="position-absolute top-0 start-0  bg-black opacity-50 disnone" style={{ height: "99.5%", width: "105%", borderBottomLeftRadius: "1vw" }}></div>
