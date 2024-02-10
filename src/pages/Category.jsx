@@ -2,7 +2,7 @@ import axios from "axios";
 import { useState, useEffect } from "react";
 import { Button, Card, Modal } from "react-bootstrap";
 import Sidebar from "../components/Sidebar";
-import AddCategory from "./addCategory";
+import AddCategory from "./AddCategory";
 
 const Category = () => {
     const [categories, setCategories] = useState([]);
